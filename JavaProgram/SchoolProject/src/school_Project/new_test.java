@@ -10,6 +10,7 @@ public class new_test { // Remember to always make the main class public.
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Hello from mac!");
+        System.out.println("Hello from pc!");
     } 
     
 }
