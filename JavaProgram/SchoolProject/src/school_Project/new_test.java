@@ -12,5 +12,4 @@ public class new_test { // Remember to always make the main class public.
         System.out.println("Hello from mac!");
         System.out.println("Hello from pc!");
     } 
-    
 }
