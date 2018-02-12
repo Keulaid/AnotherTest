@@ -11,7 +11,7 @@ public class new_test { // Remember to always make the main class public.
         // TODO code application logic here
         System.out.println("Hello from mac!");
         System.out.println("Hello from pc!");
-        int OriginalNumber = 3;
+        int OriginalNumber = 2;
         System.out.println("The square root of " + OriginalNumber + " is " + Math.sqrt(OriginalNumber));
     } 
 }
