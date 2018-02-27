@@ -14,6 +14,10 @@ public class new_test { // Remember to always make the main class public.
         float Float_Variable_Farenheight = 3.1F; // this specifies what type of number it is. This is so that you can't add 3.1F with 3.1C, or 30M with 30MM.
         System.out.println(Char_Variable);
         System.out.println(String_Variable);
+        System.out.println(Float_Variable_Farenheight);
+        System.out.println(Double_Variable);
+        
+        
         
         
     } 
