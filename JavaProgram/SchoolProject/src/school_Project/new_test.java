@@ -7,25 +7,23 @@ package school_Project;
 public class new_test { // Remember to always make the main class public.
     //ARGS
     public static void main(String[] arguments) {
-        // print VS println
-        /*
-        Print just allows you to print a message, and let it mix with the other
-        message. Println makes it its own line to prevent that.
-        
-        */
-        
-        System.out.println("Wow, my line is on it's own!");
-        System.out.print('w'); 
-        System.out.print('o');
-        System.out.print('w');
-        System.out.println();
-        
-        /*
-            Also, when you use println(); you can leave it empty just so you
-        leave the line clear. It's kinda fancy. This doesn't work with print();
-        however.
-        */
-        
-        
+    /* we can use special characters to ensure that out strings 
+    say what we want them to. 
+        \'
+        \"
+        \\
+        \t
+        \r
+        \f
+        \n
+    */
+   //it makes it so we can do things like this:
+    System.out.println("\t \t \"90% of all quotes on the internet are fake.\" \n \t \t \t -Abraham Lihncoln");
+    /* if we tried saying it like:
+        "       "90% of all quotes on the internet are fake"
+                    -Abraham Lihncoln"
+    It would just creat errors because the quotes see eachother and think the blank
+    space is the string while the rest is just random.
+    */  
     } 
 }
